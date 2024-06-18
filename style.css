@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: #cbcbcb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+.form {
+  min-width: 75vw;
+  height: 800px;
+  background-color: white;
+  color: black;
+  margin: 50px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 5px #a3a3a3;
+  display: flex;
+  flex-direction: column;
+
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  color: #fd9149;
+}
+
+.form div {
+  margin: 15px;
+
+}
+
+input {
+  height: 40px;
+  width: 200px;
+  padding-left: 12px;
+}
+
+select {
+  height: 40px;
+
+  width:
+}
+
+
+.upload input {
+  display: flex;
+  align-items: center;
+  border: 0.1px solid black;
+  padding-top: 10px;
+}
+
+
+.section-one {
+  display: flex;
+
+}
+
+.section-two {
+  display: flex;
+}
+
+.address {
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-between;
+  margin-left: 20px;
+
+}
+
+.address input {
+  width: 90%;
+  height: 70%;
+  margin: auto;
+  padding-left: 12px;
+}
+
+.address p {
+  margin-left: 20px;
+}
+
+.city-pin {
+  display: flex;
+}
+
+.uploads {
+  display: flex;
+}
+
+.button {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 40px;
+}
+
+.button button {
+  margin-right: 40px;
+  background-color: #e84027;
+  border: none;
+  height: 32px;
+  width: 120px;
+  border-radius: 12px;
+  font-size: 19px;
+  color: white;
+}

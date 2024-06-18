@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Job application Form</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   <div class="form">
+     <h1>Job Application for Web devloper</h1>
+     <div class="section-one">
+       <div class="first">
+          <p>First Name:</p> <input type="text" name="fname" id="fname" placeholder="Enter your first name" required autocapitalize="characters">
+       </div>
+       <div class="last">
+          <p>Last Name:</p> <input type="text" name="lname" id="lname" placeholder="Enter your last name" required>
+       </div>
+     </div>
+     <div class="section-two">
+       <div class="email">
+          <p>Email:</p> <input type="email" name="email" id="email" placeholder="Enter your email">
+       </div>
+       <div class="role">
+         <p> Role: </p><select name="role" id="role">
+           <option value="frontend">Frontend Developer</option>
+           <option value="backend">Backend Developer</option>
+           <option value="fullstack">Fullstack Developer</option>
+         </select>
+       </div>
+     </div>   
+       <div class="address">
+          <p>Address:</p>
+         <input type="text" name="address" id="address" placeholder="Enter your address">
+       </div>
+     <div class="city-pin">
+       
+       <div class="city">
+          <p>City:</p>
+         <input type=text placeholder="Enter city..">
+       </div>
+       <div class="pin">
+          <p>Pincode:</p> 
+         <input type="number" placeholder="Enter pincode.." required>
+         
+       </div>
+     </div>
+     <div class="uploads">
+       
+       <div class="date">
+         <p>Start date:</p><input type="date" placeholder="dd/mm/yyyy">
+       </div>
+       <div class="upload">
+         <p>Upload your resume:</p> 
+         <input type="file" name="file" id="file" accept="less than 2mb">
+       </div>
+     </div>  
+       <div class="button">
+         <button>Apply Now</button>
+       </div>
+     </div>
+   </div>
+
+</html>
+</body>
